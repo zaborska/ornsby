@@ -1,0 +1,151 @@
+@import url("https://fonts.googleapis.com/css?family=Oswald:600|Roboto:400i,500i,700i,900i&display=swap");
+
+/*
+Fonts:
+font-family: 'Oswald', sans-serif; - headers
+font-family: 'Roboto', sans-serif; - text
+*/
+
+.home-page {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+}
+
+/* GENERAL STYLES */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Oswald", sans-serif;
+  font-weight: 600;
+  font-style: italic;
+}
+h2 {
+  font-size: 72px;
+}
+h3 {
+  font-size: 60px;
+}
+h4 {
+  font-size: 48px;
+}
+h5 {
+  font-size: 40px;
+}
+
+.yellow-txt {
+  color: #ffdd02;
+}
+.white-txt {
+  color: #fff;
+}
+
+/* button.btn {
+  background: #fedb03;
+  color: #000000;
+  height: 60px;
+  width: 290px;
+  font-size: 16px;
+  font-weight: bold;
+} */
+
+/* HOME PAGE STYLES */
+/* BANNER */
+.banner img {
+  width: 100%;
+}
+
+/* MOTORCYCLE TRAINING */
+.m-training {
+  background-color: black;
+  background-image: url("./images/bg.png");
+  background-repeat: repeat;
+  padding: 112px 0;
+}
+
+.m-training .headers {
+  margin-bottom: 75px;
+}
+
+.mt-item {
+  max-height: 265px;
+  border-top: 3px solid #fff;
+  border-bottom: 3px solid #ffdd02;
+  position: relative;
+  margin: 0;
+  overflow: hidden;
+}
+
+.mt-item img {
+  width: 100%;
+}
+
+.mt-item figcaption {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+  background: rgba(0, 0, 0, 0.8);
+  font-weight: 900;
+  color: #fff;
+  text-transform: uppercase;
+  padding: 20px;
+  font-size: 22px;
+  transition: min-height 0.3s;
+  min-height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.mt-item:hover figcaption {
+  min-height: 100%;
+}
+
+/* BANNER 2 */
+.banner-2 {
+  position: relative;
+}
+.banner-2 .bg-img {
+  width: 100%;
+}
+.banner-2 .banner-info-block {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.banner-2 .banner-info-block img {
+  max-width: 80%;
+}
+
+/* BOOK TICKET */
+.ticket {
+  padding-top: 60px;
+  padding-bottom: 48px;
+}
+.ticket h2 {
+  color: #222222;
+  margin-bottom: -14px;
+}
+.ticket h1 {
+  font-size: 72px;
+}
+.ticket p {
+  color: #000000;
+  font-size: 16px;
+  font-weight: medium;
+  font-family: Roboto, sans-serif;
+}
+.about {
+  background-color: #222222;
+  padding-top: 125px;
+  padding-bottom: 102px;
+}
+
+.about h1 {
+  font-size: 72px;
+}
