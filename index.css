@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Oswald:500,600|Roboto:400i,500,500i,700i,900i&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Oswald:500|Roboto:400i,500,500i,700i,900i&display=swap");
 
 /*
 Fonts:
@@ -23,6 +23,7 @@ h6.h6 {
   font-family: "Oswald", sans-serif;
   font-weight: 600;
   font-style: italic;
+  text-transform: uppercase;
 }
 h2.h2 {
   font-size: 72px;
@@ -216,6 +217,15 @@ h5.h5 {
 
 .about p {
   color: #fff;
+}
+
+/* TESTIMONALS */
+.testimonals {
+  padding: 100px 0;
+}
+
+.testimonals .img-testimonals img {
+  max-width: 100%;
 }
 
 /* FOOTER */
