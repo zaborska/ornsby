@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Oswald:600|Roboto:400i,500i,700i,900i&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Oswald:500,600|Roboto:400i,500,500i,700i,900i&display=swap");
 
 /*
 Fonts:
@@ -8,6 +8,7 @@ font-family: 'Roboto', sans-serif; - text
 
 .home-page {
   font-family: "Roboto", sans-serif;
+  font-style: italic;
   font-size: 16px;
   color: #000;
 }
@@ -152,6 +153,7 @@ h5.h5 {
   border-bottom: 9px solid #fedc01;
   max-width: 100%;
 }
+
 /* ABOUT */
 .about {
   background-color: #222222;
@@ -161,4 +163,66 @@ h5.h5 {
 
 .about p {
   color: #fff;
+}
+
+/* FOOTER */
+footer {
+  padding-top: 70px;
+  padding-bottom: 70px;
+  background-image: url("https://cdn.bookingtimes.com/Common/LoadImage.ashx?Id=18052&amp;v=1");
+}
+
+.footer-navs nav {
+  font-size: 16px;
+  text-transform: uppercase;
+}
+.footer-navs nav ul {
+  margin: 0;
+  font-family: "Oswald", sans-serif;
+}
+.footer-navs nav ul li {
+  padding: 0 10px;
+  margin: 5px 0;
+}
+.footer-navs nav ul li:after {
+  content: "|";
+  display: inline-block;
+  color: #f2f2f2;
+  margin-left: 20px;
+}
+.footer-navs nav ul li:last-child:after {
+  content: "";
+}
+.footer-navs nav a {
+  color: #f2f2f2;
+}
+.footer-navs nav a:hover {
+  text-decoration: underline;
+}
+footer .logo-img {
+  text-align: center;
+  padding: 60px 0;
+}
+footer .follow div {
+  color: #f2f2f2;
+  text-align: center;
+  font-size: 24px;
+  text-transform: uppercase;
+  font-family: "Oswald", sans-serif;
+}
+footer .follow a {
+  margin-top: 35px;
+  margin-bottom: 40px;
+  display: inline-block;
+}
+footer .contact {
+  padding: 0;
+  color: #f2f2f2;
+}
+footer .contact ul {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  text-transform: none;
 }
