@@ -12,7 +12,6 @@ font-family: 'Roboto', sans-serif; - text
   font-size: 16px;
   color: #000;
 }
-
 /* GENERAL STYLES */
 h1.h1,
 h2.h2,
@@ -222,7 +221,7 @@ h5.h5 {
 /* TESTIMONALS */
 .testimonals {
   padding: 100px 0;
-  // overflow: hidden;
+  overflow: hidden;
 
   h2 {
     margin-top: 0;
@@ -283,7 +282,7 @@ h5.h5 {
     .quote {
       background-color: #222;
       color: #fff;
-      padding: 0 65px;
+      padding: 50px 65px;
       height: 100%;
       display: flex;
       flex-direction: column;
@@ -388,3 +387,73 @@ footer .contact ul {
   font-size: 14px;
   text-transform: none;
 }
+
+// RESPONSIVE
+@media (max-width: 576px) {
+  h2.h2 {
+    font-size: 48px;
+  }
+  /* MOTORCYCLE TRAINING */
+  .m-training,
+  .about,
+  .testimonals {
+    padding: 30px 0;
+  }
+  //Banner//
+  .banner-2-btn-wrapper {
+    padding-top: 15px;
+  }
+
+  /* BOOK TICKET */
+  .ticket img {
+    margin: 0px;
+  }
+
+  .btn-roboto {
+    font-size: 16px;
+    padding: 12px 32px;
+  }
+
+  // TESTIMONALS
+  .testimonals {
+    .carousel-item {
+      flex-direction: column;
+      .carousel-item-side {
+        &:first-child {
+          margin-right: 0px;
+        }
+        &:last-child {
+          margin-left: 0px;
+        }
+      }
+    }
+
+    .carousel {
+      .carousel-control {
+        &.left {
+          left: -10px;
+        }
+
+        &.right {
+          right: -10px;
+        }
+      }
+    }
+  }
+}
+
+/*
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+
+*/
