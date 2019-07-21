@@ -212,6 +212,10 @@ h5.h5 {
     display: flex; }
     .testimonals .carousel-item .carousel-item-side {
       flex: 1; }
+      .testimonals .carousel-item .carousel-item-side:first-child {
+        margin-right: 10px; }
+      .testimonals .carousel-item .carousel-item-side:last-child {
+        margin-left: 10px; }
     .testimonals .carousel-item .quote {
       background-color: #222;
       color: #fff;
@@ -249,7 +253,8 @@ footer {
 
 .footer-navs nav {
   font-size: 16px;
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  font-style: normal; }
 
 .footer-navs nav ul {
   margin: 0;

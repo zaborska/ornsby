@@ -222,6 +222,7 @@ h5.h5 {
 /* TESTIMONALS */
 .testimonals {
   padding: 100px 0;
+  // overflow: hidden;
 
   h2 {
     margin-top: 0;
@@ -237,11 +238,46 @@ h5.h5 {
     }
   }
 
+  // .carousel {
+  //   .carousel-indicators li {
+  //     width: 13px;
+  //     height: 13px;
+  //     background-color: #aaaaaa;
+  //     border: none;
+  //     margin: 0;
+
+  //     &.active {
+  //       background-color: #fedc01;
+  //     }
+  //   }
+  //   .carousel-control {
+  //     background: none;
+  //     color: #000;
+  //     // top: 50%;
+  //     width: 25px;
+  //     // height: 20px;
+
+  //     &.left {
+  //       left: -40px;
+  //     }
+
+  //     &.right {
+  //       right: -40px;
+  //     }
+  //   }
+  // }
+
   .carousel-item {
     display: flex;
 
     .carousel-item-side {
       flex: 1;
+      &:first-child {
+        margin-right: 10px;
+      }
+      &:last-child {
+        margin-left: 10px;
+      }
     }
 
     .quote {
@@ -296,6 +332,7 @@ footer {
 .footer-navs nav {
   font-size: 16px;
   text-transform: uppercase;
+  font-style: normal;
 }
 .footer-navs nav ul {
   margin: 0;
