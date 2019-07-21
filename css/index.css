@@ -208,10 +208,30 @@ h5.h5 {
     border-bottom: 12px solid transparent; }
     .testimonals .img-testimonals img {
       max-width: 100%; }
+  .testimonals .carousel .carousel-indicators li {
+    width: 13px;
+    height: 13px;
+    background-color: #aaaaaa;
+    border: none;
+    margin: 0; }
+    .testimonals .carousel .carousel-indicators li.active {
+      background-color: #fedc01; }
+  .testimonals .carousel .carousel-control {
+    background: none;
+    color: #000;
+    width: 25px; }
+    .testimonals .carousel .carousel-control.left {
+      left: -40px; }
+    .testimonals .carousel .carousel-control.right {
+      right: -40px; }
   .testimonals .carousel-item {
     display: flex; }
     .testimonals .carousel-item .carousel-item-side {
       flex: 1; }
+      .testimonals .carousel-item .carousel-item-side:first-child {
+        margin-right: 10px; }
+      .testimonals .carousel-item .carousel-item-side:last-child {
+        margin-left: 10px; }
     .testimonals .carousel-item .quote {
       background-color: #222;
       color: #fff;
