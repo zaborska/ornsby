@@ -9,80 +9,10 @@ font-family: 'Roboto', sans-serif; - text
   font-family: "Roboto", sans-serif;
   font-style: italic;
   font-size: 16px;
-  color: #000; }
-
-/* GENERAL STYLES */
-h1.h1,
-h2.h2,
-h3.h3,
-h4.h4,
-h5.h5,
-h6.h6 {
-  font-family: "Oswald", sans-serif;
-  font-weight: 600;
-  font-style: italic;
-  text-transform: uppercase; }
-
-h2.h2 {
-  font-size: 72px; }
-
-h3.h3 {
-  font-size: 60px; }
-
-h4.h4 {
-  font-size: 48px; }
-
-h5.h5 {
-  font-size: 40px; }
-
-.yellow-txt {
-  color: #ffdd02; }
-
-.white-txt {
-  color: #fff; }
-
-.btn-roboto {
-  font-size: 20px;
   color: #000;
-  padding: 16px 40px;
-  font-weight: 700;
-  border-radius: 0;
-  background-color: #fedb03;
-  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.4);
-  transform: perspective(1px) translateZ(0);
-  position: relative;
-  transition-property: all;
-  transition-duration: 0.3s;
-  transition: 0.3 all;
-  overflow: hidden;
-  border: 2px solid #fedb03; }
-
-.btn-roboto:hover {
-  background: #333;
-  border: 2px solid #fedb03;
-  color: #fedb03; }
-
-.btn-roboto:before {
-  content: "";
-  position: absolute;
-  z-index: -1;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background: #333;
-  transform: scaleY(0);
-  transform-origin: 50% 0;
-  transition-property: transform;
-  transition-duration: 0.3s;
-  transition-timing-function: ease-out; }
-
-.btn-roboto:hover:before,
-.btn-roboto:focus:before,
-.btn-roboto:active:before {
-  transform: scaleY(1); }
-
-/* .ast-style {
+  margin-top: -30px;
+  /* GENERAL STYLES */
+  /* .ast-style {
   .btn.btn-primary.btn-hover {
     border-color: $ast-brand-primary;
 
@@ -99,259 +29,290 @@ h5.h5 {
     color: $ast-brand-primary;
   }
 } */
-/* HOME PAGE STYLES */
-/* BANNER */
-.banner img {
-  width: 100%; }
-
-/* MOTORCYCLE TRAINING */
-.m-training {
-  background-color: black;
-  background-image: url("https://cdn.bookingtimes.com/Common/LoadImage.ashx?Id=18052&amp;v=1");
-  background-repeat: repeat;
-  padding: 112px 0; }
-
-.m-training .headers {
-  margin-bottom: 75px; }
-
-.mt-item {
-  max-height: 265px;
-  border-top: 3px solid #fff;
-  border-bottom: 3px solid #ffdd02;
-  position: relative;
-  margin: 0;
-  overflow: hidden; }
-
-.mt-item img {
-  width: 100%; }
-
-.mt-item figcaption {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  text-align: center;
-  background: rgba(0, 0, 0, 0.8);
-  font-weight: 900;
-  color: #fff;
-  text-transform: uppercase;
-  padding: 20px;
-  font-size: 22px;
-  transition: min-height 0.3s;
-  min-height: 70px;
-  display: flex;
-  align-items: center;
-  justify-content: center; }
-
-.mt-item:hover figcaption {
-  min-height: 100%; }
-
-/* BANNER 2 */
-.banner-2 {
-  position: relative; }
-
-.banner-2 .bg-img {
-  width: 100%; }
-
-.banner-2-btn-wrapper {
-  text-align: right;
-  padding-top: 35px; }
-
-.banner-2 .banner-info-block {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%); }
-
-.banner-2 .banner-info-block img {
-  max-width: 80%; }
-
-/* BOOK TICKET */
-.ticket {
-  padding-top: 60px;
-  padding-bottom: 48px; }
-
-.ticket p,
-.about p {
-  font-size: 16px;
-  font-weight: 500;
-  margin-bottom: 35px; }
-
-.ticket .sub-header {
-  margin-top: -15px; }
-
-.ticket img {
-  margin-top: 100px; }
-
-.bordered-img {
-  border-top: 9px solid #fedc01;
-  border-bottom: 9px solid #fedc01;
-  max-width: 100%; }
-
-/* ABOUT */
-.about {
-  background-color: #222222;
-  padding-top: 125px;
-  padding-bottom: 102px; }
-
-.about p {
-  color: #fff; }
-
-/* TESTIMONALS */
-.testimonals {
-  padding: 100px 0;
-  overflow: hidden; }
-  .testimonals h2 {
-    margin-top: 0;
-    margin-bottom: 40px; }
-  .testimonals .img-testimonals {
-    border-top: 12px solid transparent;
-    border-bottom: 12px solid transparent; }
-    .testimonals .img-testimonals img {
-      max-width: 100%; }
-  .testimonals .carousel .carousel-indicators li {
-    width: 13px;
-    height: 13px;
-    background-color: #aaaaaa;
-    border: none;
-    margin: 0; }
-    .testimonals .carousel .carousel-indicators li.active {
-      background-color: #fedc01; }
-  .testimonals .carousel .carousel-control {
-    background: none;
+  /* HOME PAGE STYLES */
+  /* BANNER */
+  /* MOTORCYCLE TRAINING */
+  /* BANNER 2 */
+  /* BOOK TICKET */
+  /* ABOUT */
+  /* TESTIMONALS */ }
+  .home-page h1.h1,
+  .home-page h2.h2,
+  .home-page h3.h3,
+  .home-page h4.h4,
+  .home-page h5.h5,
+  .home-page h6.h6 {
+    font-family: "Oswald", sans-serif;
+    font-weight: 600;
+    font-style: italic;
+    text-transform: uppercase; }
+  .home-page h2.h2 {
+    font-size: 72px; }
+  .home-page h3.h3 {
+    font-size: 60px; }
+  .home-page h4.h4 {
+    font-size: 48px; }
+  .home-page h5.h5 {
+    font-size: 40px; }
+  .home-page .yellow-txt {
+    color: #ffdd02; }
+  .home-page .white-txt {
+    color: #fff; }
+  .home-page .btn-roboto {
+    font-size: 20px;
     color: #000;
-    width: 25px; }
-    .testimonals .carousel .carousel-control.left {
-      left: -40px; }
-    .testimonals .carousel .carousel-control.right {
-      right: -40px; }
-  .testimonals .carousel-item {
-    display: flex; }
-    .testimonals .carousel-item .carousel-item-side {
-      flex: 1; }
-      .testimonals .carousel-item .carousel-item-side:first-child {
-        margin-right: 10px; }
-      .testimonals .carousel-item .carousel-item-side:last-child {
-        margin-left: 10px; }
-    .testimonals .carousel-item .quote {
-      background-color: #222;
-      color: #fff;
-      padding: 50px 65px;
-      height: 100%;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      border-top: 12px solid #fedc01;
-      border-bottom: 9px solid #fedc01; }
-      .testimonals .carousel-item .quote p {
-        font-size: 14px;
-        position: relative; }
-        .testimonals .carousel-item .quote p:before, .testimonals .carousel-item .quote p:after {
-          font-size: 40px;
-          position: absolute; }
-        .testimonals .carousel-item .quote p:before {
-          content: "“";
-          top: -18px;
-          left: -18px; }
-        .testimonals .carousel-item .quote p:after {
-          content: "“";
-          transform: rotate(180deg);
-          bottom: -16px;
-          margin-left: 5px; }
-      .testimonals .carousel-item .quote .signature {
-        text-align: right;
-        font-size: 18px; }
+    padding: 16px 40px;
+    font-weight: 700;
+    border-radius: 0;
+    background-color: #fedb03;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.4);
+    transform: perspective(1px) translateZ(0);
+    position: relative;
+    transition-property: all;
+    transition-duration: 0.3s;
+    transition: 0.3 all;
+    overflow: hidden;
+    border: 2px solid #fedb03; }
+  .home-page .btn-roboto:hover {
+    background: #333;
+    border: 2px solid #fedb03;
+    color: #fedb03; }
+  .home-page .btn-roboto:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #333;
+    transform: scaleY(0);
+    transform-origin: 50% 0;
+    transition-property: transform;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-out; }
+  .home-page .btn-roboto:hover:before,
+  .home-page .btn-roboto:focus:before,
+  .home-page .btn-roboto:active:before {
+    transform: scaleY(1); }
+  .home-page .banner img {
+    width: 100%; }
+  .home-page .m-training {
+    background-color: black;
+    background-image: url("https://cdn.bookingtimes.com/Common/LoadImage.ashx?Id=18052&amp;v=1");
+    background-repeat: repeat;
+    padding: 112px 0; }
+  .home-page .m-training .headers {
+    margin-bottom: 75px; }
+  .home-page .mt-item {
+    max-height: 265px;
+    border-top: 3px solid #fff;
+    border-bottom: 3px solid #ffdd02;
+    position: relative;
+    margin: 0;
+    overflow: hidden; }
+  .home-page .mt-item img {
+    width: 100%; }
+  .home-page .mt-item figcaption {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.8);
+    font-weight: 900;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 20px;
+    font-size: 22px;
+    transition: min-height 0.3s;
+    min-height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center; }
+  .home-page .mt-item:hover figcaption {
+    min-height: 100%; }
+  .home-page .banner-2 {
+    position: relative; }
+  .home-page .banner-2 .bg-img {
+    width: 100%; }
+  .home-page .banner-2-btn-wrapper {
+    text-align: right;
+    padding-top: 35px; }
+  .home-page .banner-2 .banner-info-block {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); }
+  .home-page .banner-2 .banner-info-block img {
+    max-width: 80%; }
+  .home-page .ticket {
+    padding-top: 60px;
+    padding-bottom: 48px; }
+  .home-page .ticket p,
+  .home-page .about p {
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 35px; }
+  .home-page .ticket .sub-header {
+    margin-top: -15px; }
+  .home-page .ticket img {
+    margin-top: 100px; }
+  .home-page .bordered-img {
+    border-top: 9px solid #fedc01;
+    border-bottom: 9px solid #fedc01;
+    max-width: 100%; }
+  .home-page .about {
+    background-color: #222222;
+    padding-top: 125px;
+    padding-bottom: 102px; }
+  .home-page .about p {
+    color: #fff; }
+  .home-page .testimonals {
+    padding: 100px 0;
+    overflow: hidden; }
+    .home-page .testimonals h2 {
+      margin-top: 0;
+      margin-bottom: 40px; }
+    .home-page .testimonals .img-testimonals {
+      border-top: 12px solid transparent;
+      border-bottom: 12px solid transparent; }
+      .home-page .testimonals .img-testimonals img {
+        max-width: 100%; }
+    .home-page .testimonals .carousel .carousel-indicators li {
+      width: 13px;
+      height: 13px;
+      background-color: #aaaaaa;
+      border: none;
+      margin: 0; }
+      .home-page .testimonals .carousel .carousel-indicators li.active {
+        background-color: #fedc01; }
+    .home-page .testimonals .carousel .carousel-control {
+      background: none;
+      color: #000;
+      width: 25px; }
+      .home-page .testimonals .carousel .carousel-control.left {
+        left: -40px; }
+      .home-page .testimonals .carousel .carousel-control.right {
+        right: -40px; }
+    .home-page .testimonals .carousel-item {
+      display: flex; }
+      .home-page .testimonals .carousel-item .carousel-item-side {
+        flex: 1; }
+        .home-page .testimonals .carousel-item .carousel-item-side:first-child {
+          margin-right: 10px; }
+        .home-page .testimonals .carousel-item .carousel-item-side:last-child {
+          margin-left: 10px; }
+      .home-page .testimonals .carousel-item .quote {
+        background-color: #222;
+        color: #fff;
+        padding: 50px 65px;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        border-top: 12px solid #fedc01;
+        border-bottom: 9px solid #fedc01; }
+        .home-page .testimonals .carousel-item .quote p {
+          font-size: 14px;
+          position: relative;
+          color: #fff; }
+          .home-page .testimonals .carousel-item .quote p:before, .home-page .testimonals .carousel-item .quote p:after {
+            font-size: 40px;
+            position: absolute; }
+          .home-page .testimonals .carousel-item .quote p:before {
+            content: "“";
+            top: -18px;
+            left: -18px; }
+          .home-page .testimonals .carousel-item .quote p:after {
+            content: "“";
+            transform: rotate(180deg);
+            bottom: -16px;
+            margin-left: 5px; }
+        .home-page .testimonals .carousel-item .quote .signature {
+          text-align: right;
+          font-size: 18px; }
+  @media (max-width: 576px) {
+    .home-page {
+      /* MOTORCYCLE TRAINING */
+      /* BOOK TICKET */ }
+      .home-page h2.h2 {
+        font-size: 48px; }
+      .home-page .m-training,
+      .home-page .about,
+      .home-page .testimonals {
+        padding: 30px 0; }
+      .home-page .banner-2-btn-wrapper {
+        padding-top: 15px; }
+      .home-page .ticket img {
+        margin: 0px; }
+      .home-page .btn-roboto {
+        font-size: 16px;
+        padding: 12px 32px; }
+      .home-page .testimonals .carousel-item {
+        flex-direction: column; }
+        .home-page .testimonals .carousel-item .carousel-item-side:first-child {
+          margin-right: 0px; }
+        .home-page .testimonals .carousel-item .carousel-item-side:last-child {
+          margin-left: 0px; }
+      .home-page .testimonals .carousel .carousel-control.left {
+        left: -10px; }
+      .home-page .testimonals .carousel .carousel-control.right {
+        right: -10px; } }
 
 /* FOOTER */
-footer {
+.page-footer {
   padding-top: 70px;
   padding-bottom: 70px;
   background-image: url("https://cdn.bookingtimes.com/Common/LoadImage.ashx?Id=18052&amp;v=1"); }
-
-.footer-navs nav {
-  font-size: 16px;
-  text-transform: uppercase;
-  font-style: normal; }
-
-.footer-navs nav ul {
-  margin: 0;
-  font-family: "Oswald", sans-serif; }
-
-.footer-navs nav ul li {
-  padding: 0 10px;
-  margin: 5px 0; }
-
-.footer-navs nav ul li:after {
-  content: "|";
-  display: inline-block;
-  color: #f2f2f2;
-  margin-left: 20px; }
-
-.footer-navs nav ul li:last-child:after {
-  content: ""; }
-
-.footer-navs nav a {
-  color: #f2f2f2; }
-
-.footer-navs nav a:hover {
-  text-decoration: underline; }
-
-footer .logo-img {
-  text-align: center;
-  padding: 60px 0; }
-  footer .logo-img img {
-    max-width: 100%; }
-
-footer .follow div {
-  color: #f2f2f2;
-  text-align: center;
-  font-size: 24px;
-  text-transform: uppercase;
-  font-family: "Oswald", sans-serif;
-  font-style: normal; }
-
-footer .follow a {
-  margin-top: 35px;
-  margin-bottom: 40px;
-  display: inline-block; }
-
-footer .contact {
-  padding: 0;
-  color: #f2f2f2; }
-
-footer .contact ul {
-  font-family: "Roboto", sans-serif;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 14px;
-  text-transform: none; }
-
-@media (max-width: 576px) {
-  h2.h2 {
-    font-size: 48px; }
-  /* MOTORCYCLE TRAINING */
-  .m-training,
-  .about,
-  .testimonals {
-    padding: 30px 0; }
-  .banner-2-btn-wrapper {
-    padding-top: 15px; }
-  /* BOOK TICKET */
-  .ticket img {
-    margin: 0px; }
-  .btn-roboto {
+  .page-footer .logo-img {
+    text-align: center;
+    padding: 60px 0; }
+    .page-footer .logo-img img {
+      max-width: 100%; }
+  .page-footer .follow div {
+    color: #f2f2f2;
+    text-align: center;
+    font-size: 24px;
+    text-transform: uppercase;
+    font-family: "Oswald", sans-serif;
+    font-style: normal; }
+  .page-footer .follow a {
+    margin-top: 35px;
+    margin-bottom: 40px;
+    display: inline-block; }
+  .page-footer .contact {
+    padding: 0;
+    color: #f2f2f2; }
+  .page-footer .contact ul {
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    text-transform: none; }
+    .page-footer .contact ul li {
+      color: #f2f2f2; }
+  .page-footer .footer-navs nav {
     font-size: 16px;
-    padding: 12px 32px; }
-  .testimonals .carousel-item {
-    flex-direction: column; }
-    .testimonals .carousel-item .carousel-item-side:first-child {
-      margin-right: 0px; }
-    .testimonals .carousel-item .carousel-item-side:last-child {
-      margin-left: 0px; }
-  .testimonals .carousel .carousel-control.left {
-    left: -10px; }
-  .testimonals .carousel .carousel-control.right {
-    right: -10px; } }
+    text-transform: uppercase;
+    font-style: normal; }
+  .page-footer .footer-navs nav ul {
+    margin: 0;
+    font-family: "Oswald", sans-serif; }
+  .page-footer .footer-navs nav ul li {
+    padding: 0 10px;
+    margin: 5px 0; }
+  .page-footer .footer-navs nav ul li:after {
+    content: "|";
+    display: inline-block;
+    color: #f2f2f2;
+    margin-left: 20px; }
+  .page-footer .footer-navs nav ul li:last-child:after {
+    content: ""; }
+  .page-footer .footer-navs nav a {
+    color: #f2f2f2; }
+  .page-footer .footer-navs nav a:hover {
+    text-decoration: underline; }
 
 /*
 
