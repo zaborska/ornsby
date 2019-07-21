@@ -332,7 +332,7 @@ footer {
 .footer-navs nav {
   font-size: 16px;
   text-transform: uppercase;
-  // font-style: normal;
+  font-style: normal;
 }
 .footer-navs nav ul {
   margin: 0;
@@ -360,6 +360,9 @@ footer {
 footer .logo-img {
   text-align: center;
   padding: 60px 0;
+  img {
+    max-width: 100%;
+  }
 }
 footer .follow div {
   color: #f2f2f2;
@@ -367,6 +370,7 @@ footer .follow div {
   font-size: 24px;
   text-transform: uppercase;
   font-family: "Oswald", sans-serif;
+  font-style: normal;
 }
 footer .follow a {
   margin-top: 35px;
